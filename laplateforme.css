@@ -403,12 +403,11 @@ header{
 footer{
     display:flex;
     color: white;
-
 }
 
 .bigfooter{
     display:flex;
-    background-color:#666;
+    background-color:#313131;
     width:90%;
     padding-left: 5%;
     padding-right: 5%;
@@ -417,6 +416,7 @@ footer{
 .logo-links{
     display:flex;
     flex-direction:column;
+    width: 30%;
     padding: 3% 0;
     margin-right:5.5%;
 }
@@ -426,24 +426,78 @@ footer{
     margin-top:60px;
     margin-bottom:10%;
     margin-right: 15%;
-
 }
 
 .bigfooter_logo{
     display:flex;
     width:100%;
-
 }
 
 .site-plan{
     display:flex;
+    width:70%;
+    padding-right:5%;
     padding-top: 60px;
+    justify-content:space-between;
+}
 
+.site-plan_column{
+    display:flex;
+    flex-direction: column;
+}
+
+.site-plan_column strong{
+    font-size: 1.1em;
+}
+
+.site-plan_column p{
+    padding-bottom:1em;
+}
+
+.site-plan_column a{
+    text-decoration:none;
+    color: white;
+}
+
+.site-plan_contact{
+    display:flex;
+}
+
+.site-plan_contact a{
+    display:flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: white;
+    transition: all 300ms ease 0ms;
+}
+
+.site-plan_contact a:hover{
+    border-color: transparent;
+}
+
+.site-plan_contact a:after{
+    content: ">";
+    margin-left: 2.5em;
+    font-size: 18px;
+    position: absolute;
+    opacity:0;
+    transition: all 300ms ease 0ms;
+}
+
+.site-plan_contact a:hover::after{
+    opacity: 1;
+    margin-left: 4em;
 }
 
 .littlefooter{
     display:flex;
     background-color: black;
 }
+
+
 
 /* END of Footer */
