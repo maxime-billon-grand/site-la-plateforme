@@ -402,7 +402,8 @@ header{
 
 footer{
     display:flex;
-    color: white;
+    color: white !important;
+    flex-direction:column;
 }
 
 .bigfooter{
@@ -438,12 +439,14 @@ footer{
     width:70%;
     padding-right:5%;
     padding-top: 60px;
+    padding-bottom: 5%;
     justify-content:space-between;
 }
 
 .site-plan_column{
     display:flex;
     flex-direction: column;
+    width:30%;
 }
 
 .site-plan_column strong{
@@ -493,9 +496,43 @@ footer{
     margin-left: 4em;
 }
 
+.site-plan_container_april{
+    display:flex;
+    width:60%;
+    margin-top: 25%
+}
+
+.site-plan_container_april img{
+    width:100%;
+}
+
 .littlefooter{
     display:flex;
     background-color: black;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+
+.littlefooter_copyright a{
+    color:white;
+    text-decoration:none;
+
+}
+
+.littlefooter_links{
+    display:flex;
+    justify-content:space-between;
+    width:10%;
+
+}
+
+.littlefooter_links_container{
+    display:flex;
+    width:14%;
+}
+
+.littlefooter_links_logo{
+    width:100%;
 }
 
 
