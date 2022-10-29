@@ -95,10 +95,11 @@ header{
 .hero_right{
     display: flex;
     height: 795px;
-    width: 50%;
 }
+
 #hero_image{
     display:flex;
+    width:100%;
 }
 
 .hero_left_text{
@@ -365,7 +366,6 @@ header{
     background-color: #ffa000;
     display: flex;
     flex-direction:column;
-/*    background-color:grey; */
     padding-top: 50px;
     padding-bottom: 54px;
     margin-top: 20px;
@@ -414,7 +414,7 @@ footer{
     padding-right: 5%;
 }
 
-.logo-links{
+.bigfooter_logo-links{
     display:flex;
     flex-direction:column;
     width: 30%;
@@ -431,6 +431,21 @@ footer{
 
 .bigfooter_logo{
     display:flex;
+    width:100%;
+}
+
+.bigfooter_socialmedia{
+    display:flex;
+    padding-left:4%;
+}
+
+.bigfooter_socialmedia_container{
+    display:flex;
+    width:9%;
+    margin-right:8px;
+}
+
+.bigfooter_socialmedia_logo{
     width:100%;
 }
 
